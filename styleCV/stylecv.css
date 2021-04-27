@@ -1,0 +1,191 @@
+/* Colors and Fonts */
+
+body {
+	font-family : 'Josefin Sans', sans-serif;
+	background-color: #EEEBDD; 
+	color : rgb(80,80,80)
+	font-size: 17;
+	text-align: center;
+	line-height: 1
+}
+
+h1 {
+	color : #2F5D62;
+	font-weight: bold;
+	font-family: Helvetica;
+	font-size : 34;
+	letter-spacing: 1px
+}
+
+h2 {
+	color : #56776C;
+	font-weight: bolder;
+	font-size : 22;
+	background-color: rgb(255,255,255)
+}
+
+h3, h4 {
+	color : rgb(45,45,45);
+	font-size: 20;
+}
+
+
+
+ul {
+	line-height: 2.3;
+	text-align: left;
+}
+
+
+a{
+	background-color: #5B8A72;
+	color:white;
+	font-family: Helvetica;
+	font-weight : 700;
+	font-size: 12;
+	text-decoration: none;
+	border-radius: 3px;
+	padding: 5px;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	background: #56776C;
+	opacity: 0.8;
+	font-weight: bolder;
+}
+
+/* Custom design */
+
+.container {
+  width: 900px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  background-color: rgb(255,255,255);
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  margin: 20px 0px;
+  text-align: center;
+  
+}
+
+.img-circle-shadow {
+	border-radius: 50%;
+	box-shadow: 1px 3px 4px grey;
+  border: 3px solid #2f5d62;
+}
+
+.btn-yellow{
+  background-color: #5B8A72;
+  color:white;
+  font-family: Helvetica;
+  font-weight : 700;
+  font-size: 12;
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 4px;
+  transition: color 0.3s ease;
+}
+
+.btn-yellow:hover {
+  background: GoldenRod;
+  opacity: 0.8;
+  font-weight: bolder;
+  letter-spacing: 2px
+}
+
+
+.smallbox {
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0px 10px 30px rgba(50,50,93,0.1);
+  border-radius: 4px;
+  margin: 20px 10px;
+  text-align: center;
+  width: 300px
+  margin : 0px auto;
+}
+
+
+.schoolbox {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  text-align: center;
+  margin : 15px 0px ;
+  width: 300px
+  margin : 0px auto;
+}
+
+
+
+.text-nicegreen {
+  color: #2F5D62;
+  font-weight: 400;
+  font-family: helvetica;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px
+}
+
+.list-inline li {
+  display: inline;
+  padding: 0px;
+}
+
+}
+.list-inline i {
+  font-size: 20px;
+  color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+  color: black;
+}
+
+
+.helvetica-info {
+  font-weight: lighter;
+  color: grey;
+}
+
+
+
+/* Design adjustments */
+#introduction p {
+  margin-bottom: 40px;
+}
+
+#foot {
+  text-align: center;
+}
+
+
+#flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
